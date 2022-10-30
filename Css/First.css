@@ -1,0 +1,126 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 18px;
+    font-family: 'Outfit', sans-serif;
+    /* display: flexbox; */
+
+    /* justify-content: center; */
+    /* align-items: baseline; */
+}
+
+#container_1{
+    display: block;
+    background-color:hsl(216, 50%, 16%);
+    max-width: 20rem;
+    min-height: 35rem;
+    margin: 25vh auto 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    /* flex-direction: column; */
+    justify-content: center;
+    flex-flow: column wrap;
+    /* padding: 0; */
+    /* top: 1em; */
+    bottom: 4em;
+    border-radius: 10px;
+    /* border-style: solid; */
+    /* border-width: 5px; */
+    /* border-color: hsl(215, 51%, 70%); */
+
+    z-index: 10;
+}
+
+
+
+
+#img_container{
+    margin: 0rem;
+    padding: 15.5px;
+    padding-right: 33px;
+    border: 2em;
+height: 19rem;
+width: 18rem;
+position: relative;
+bottom: 20px;
+margin-top: 18px;
+/* border-radius: 2em; */
+/* background-color: red; */
+}
+
+#block{
+    border-radius: 9px;
+    width: 100%;
+    height: auto;
+}
+
+#written_content{
+height: 5rem;
+width: 20rem;
+/* background-color: yellow; */
+position: relative;
+bottom: 31px;
+color: white;
+padding-left: 17px;
+/* padding-right: 2px; */
+}
+
+#Heading{
+    margin: 0;
+
+}
+
+#info{
+    color:  hsl(215, 51%, 70%);
+}
+
+#display_content_1{
+height: 2rem;
+width: 19rem;
+/* background-color: purple; */
+display: flex;
+margin: 0px;
+margin-top: 8px;
+}
+
+#p_2{
+    color: hsl(178, 100%, 50%);
+    margin: 0;
+    padding-left: 9px;
+    position: relative;
+    bottom: 2px;
+}
+
+#clock_icon{
+    position: relative;
+    left: 84px;
+}
+#p_3{
+    color:hsl(215, 51%, 70%) ;
+    margin: 0;
+    padding-left: 4px;
+    position: relative;
+    bottom: 3.2px;
+    left: 84px;
+}
+
+
+#line{
+    width: 17rem;
+    border: solid hsl(215, 51%, 70%) 0.1px;
+    position: relative;
+    left: -10px;
+    background: hsl(215, 51%, 70%) 1px;
+    margin-top: 23px;
+    
+}
+
+
+#display_content_2{
+    height: 2rem;
+    width: 20rem;
+    margin: 4px;
+    background-color: cyan;
+
+}
