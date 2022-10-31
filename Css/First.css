@@ -11,8 +11,8 @@ body{
 #container_1{
     display: block;
     background-color:hsl(216, 50%, 16%);
-    max-width: 20rem;
-    min-height: 35rem;
+    max-width: 21rem;
+    min-height: 36rem;
     margin: 25vh auto 0;
     position: relative;
     display: flex;
@@ -23,7 +23,7 @@ body{
     flex-flow: column wrap;
     /* padding: 0; */
     /* top: 1em; */
-    bottom: 4em;
+    bottom: 7em;
     border-radius: 10px;
     /* border-style: solid; */
     /* border-width: 5px; */
@@ -37,15 +37,19 @@ body{
 
 #img_container{
     margin: 0rem;
-    padding: 15.5px;
-    padding-right: 33px;
+    padding: 0;
+    padding-right: 0px;
     border: 2em;
-height: 19rem;
-width: 18rem;
-position: relative;
-bottom: 20px;
-margin-top: 18px;
-/* border-radius: 2em; */
+    height: 18rem;
+    width: 18rem;
+    position: relative;
+    bottom: 20px;
+    margin-top: 6px;
+    margin-left: 7px;
+    margin-bottom: 34px;
+    background-color: cyan;
+    border-radius: 11px;
+    margin-right: 11px;
 /* background-color: red; */
 }
 
@@ -53,7 +57,38 @@ margin-top: 18px;
     border-radius: 9px;
     width: 100%;
     height: auto;
+   
 }
+
+#block:hover {
+    opacity: .5;
+    
+    cursor: pointer;
+    /* color: cyan; */
+}
+
+#eye_icon{
+    display: none;
+    position: relative;
+    bottom: 169px;
+    left: 122px;
+}
+
+#block:hover + #eye_icon{
+    display: block;
+}
+
+#eye_icon:hover{
+    display: block;
+    /* opacity: 0.5; */
+    cursor: pointer;
+}
+
+/* on icon hover bgcolor disappears */
+/* #eye_icon:hover + #block{
+    opacity: .5;
+    cursor: pointer;
+} */
 
 #written_content{
 height: 5rem;
@@ -69,6 +104,11 @@ padding-left: 17px;
 #Heading{
     margin: 0;
 
+}
+
+#Heading:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 #info{
@@ -112,7 +152,7 @@ margin-top: 8px;
     position: relative;
     left: -10px;
     background: hsl(215, 51%, 70%) 1px;
-    margin-top: 23px;
+    margin-top: 11px;
     
 }
 
@@ -121,6 +161,36 @@ margin-top: 8px;
     height: 2rem;
     width: 20rem;
     margin: 4px;
-    background-color: cyan;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: space-around;
 
+}
+
+#creation{
+   color:  hsl(215, 51%, 70%);
+   position: relative;
+    bottom: 13px;
+    right: 12px;
+}
+
+#avatar{
+    width: 32px;
+    height: 32px;
+    border: solid;
+    border-radius: 26px;
+    border-color: white;
+}
+
+
+#name{
+    color: white;
+    position: relative;
+    bottom: 13px;
+    right: 36px;
+}
+
+#name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
